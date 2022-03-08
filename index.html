@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Andrew's Website</title>
+    <link href="/styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <div class="flexheader">
+      <img class="logo" style="width:30%; background:#3272e8; padding:10px;" src="images/mountain-climbing-logo.webp">
+      <div class="header" style="width:70%; text-align: left;; color:white; background:#3272e8; padding:40px;">
+        <h1>Andrew's Website</h1>
+        <p>With a <i><b>flexible</b></i> layout.</p>
+      </div>
+    </div>
+
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="/mybutton/index.php">Fan Button</a>
+    </div>
+
+    <!-- Flex Grid -->
+    <div class="flexbox">
+
+      <!-- Side Bar -->
+      <div class="side">
+        <h2>About Us</h2>
+        <h5>Photo of us:</h5>
+        <div class="imgSidebarBackground">
+          <img class="imgUs" width="100%" src="images/uspic.jpg">
+        </div>
+        <p style="text-align: center;">Yup! That's us!</p>
+      </div>
+
+      <!-- Main Content Area -->
+      <div class="main">
+        <h2>SOME RANDOM PICTURES OF PLACES</h2><br><br>
+        <p><i>Move slider to adjust image transparency.</i></p>
+        <div class="slidecontainer">
+          <input id="range1" class="slider" type="range" min="0" max="50" value="50"><br><br>
+        </div>
+        <div class="imgBackground">
+          <img class="img1" width="100%" src="images/51809.jpg" />
+        </div><br><br><br>
+        <p><i>Move slider to adjust image transparency.</i></p>
+        <div class="slidecontainer">
+          <input id="range2" class="slider" type="range" min="0" max="50" value="50"><br><br>
+        </div>
+        <div class="imgBackground">
+          <img class="img2" width="100%" src="images/166050.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <h2>Not really sure why I need a footer right now...</h2>
+      <h4>Oh well! I guess I'll just put one here anyway!</h4>
+    </div>
+
+    <!-- Change Image Opacity -->
+    <script src="/scripts/sliders.js"></script>
+
+  </body>
+</html>
